@@ -1,0 +1,263 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0069)http://127.0.0.1:13890/custom/googleVis/MotionChartID2aec83016e6.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ <TITLE>MotionChartID2aec83016e6</TITLE> 
+<META http-equiv="content-type" content="text/html;charset=utf-8"> 
+<STYLE type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</STYLE>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY><!-- MotionChart generated in R 3.4.1 by googleVis 0.6.2 package --> <!-- Mon Aug 28 11:17:53 2017 --> <!-- jsHeader --> 
+<SCRIPT type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID2aec83016e6 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Verlassenschaften HG",
+2013,
+43630000
+],
+[
+"Grossspender HG",
+2013,
+6950000
+],
+[
+"Plusspender HG",
+2013,
+0
+],
+[
+"Firmen/jurist. Pers./Unternehmenspartner HG",
+2013,
+4600000
+],
+[
+"Paten HG",
+2013,
+21200000
+],
+[
+"Committed Giving HG",
+2013,
+8800000
+],
+[
+"Freunde HG",
+2013,
+43250000
+],
+[
+"Stiftungen HG",
+2013,
+7200000
+],
+[
+"Verlassenschaften HG",
+2014,
+40667753
+],
+[
+"Grossspender HG",
+2014,
+7772917
+],
+[
+"Plusspender HG",
+2014,
+6228554
+],
+[
+"Firmen/jurist. Pers./Unternehmenspartner HG",
+2014,
+4224012
+],
+[
+"Paten HG",
+2014,
+22434189
+],
+[
+"Committed Giving HG",
+2014,
+9965517
+],
+[
+"Freunde HG",
+2014,
+35270000
+],
+[
+"Stiftungen HG",
+2014,
+8520515
+],
+[
+"Verlassenschaften HG",
+2015,
+41810000
+],
+[
+"Grossspender HG",
+2015,
+8400000
+],
+[
+"Plusspender HG",
+2015,
+7080000
+],
+[
+"Firmen/jurist. Pers./Unternehmenspartner HG",
+2015,
+5320000
+],
+[
+"Paten HG",
+2015,
+23490000
+],
+[
+"Committed Giving HG",
+2015,
+11280000
+],
+[
+"Freunde HG",
+2015,
+37310000
+],
+[
+"Stiftungen HG",
+2015,
+9310000
+],
+[
+"Verlassenschaften HG",
+2016,
+35730000
+],
+[
+"Grossspender HG",
+2016,
+9470000
+],
+[
+"Plusspender HG",
+2016,
+6320000
+],
+[
+"Firmen/jurist. Pers./Unternehmenspartner HG",
+2016,
+4480000
+],
+[
+"Paten HG",
+2016,
+22990000
+],
+[
+"Committed Giving HG",
+2016,
+13960000
+],
+[
+"Freunde HG",
+2016,
+32260000
+],
+[
+"Stiftungen HG",
+2016,
+5790000
+] 
+];
+data.addColumn('string','Bereich');
+data.addColumn('number','Jahr');
+data.addColumn('number','Einnahmen');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID2aec83016e6() {
+var data = gvisDataMotionChartID2aec83016e6();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "\n{\"sizeOption\":\"2\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
+
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID2aec83016e6')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID2aec83016e6);
+})();
+function displayChartMotionChartID2aec83016e6() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</SCRIPT>
+  <!-- jsChart -->  
+<SCRIPT src="HG-Dateien/jsapiQM60BZQ5.js" type="text/javascript"></SCRIPT>
+  <!-- divChart -->   
+<DIV id="MotionChartID2aec83016e6"></DIV>
+<DIV><SPAN>Data: HGFD • Chart ID: <A href="http://127.0.0.1:13890/custom/googleVis/Chart_MotionChartID2aec83016e6.html">MotionChartID2aec83016e6</A> 
+• <A href="https://github.com/mages/googleVis">googleVis-0.6.2</A></SPAN><BR><!-- htmlFooter --> 
+<SPAN>   R version 3.4.1 (2017-06-30)    • <A href="https://developers.google.com/terms/">Google 
+Terms of Use</A> • <A href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart">Documentation 
+and Data Policy</A> </SPAN></DIV></BODY></HTML>
