@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MergedBenchmark</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- MotionChart generated in R 3.4.1 by googleVis 0.6.3 package -->
+<!-- Mon Sep 04 21:48:05 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataMotionChartID2888635a60c2 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Legacies",
+2013,
+171931
+],
+[
+"Major Donors",
+2013,
+8493
+],
+[
+"Mid-Level",
+2013,
+15905
+],
+[
+"Corporates",
+2013,
+17367
+],
+[
+"Sponsors",
+2013,
+58609
+],
+[
+"Regular Givers",
+2013,
+11281
+],
+[
+"Sporadics",
+2013,
+133919
+],
+[
+"Donations",
+2013,
+14579
+],
+[
+"Legacies",
+2014,
+179819
+],
+[
+"Major Donors",
+2014,
+16925
+],
+[
+"Mid-Level",
+2014,
+16993
+],
+[
+"Corporates",
+2014,
+19577
+],
+[
+"Sponsors",
+2014,
+61873
+],
+[
+"Regular Givers",
+2014,
+13253
+],
+[
+"Sporadics",
+2014,
+139665
+],
+[
+"Donations",
+2014,
+15497
+],
+[
+"Legacies",
+2015,
+198077
+],
+[
+"Major Donors",
+2015,
+12335
+],
+[
+"Mid-Level",
+2015,
+21141
+],
+[
+"Corporates",
+2015,
+23997
+],
+[
+"Sponsors",
+2015,
+68945
+],
+[
+"Regular Givers",
+2015,
+17469
+],
+[
+"Sporadics",
+2015,
+149015
+],
+[
+"Donations",
+2015,
+16721
+],
+[
+"Legacies",
+2016,
+222217
+],
+[
+"Major Donors",
+2016,
+13763
+],
+[
+"Mid-Level",
+2016,
+20529
+],
+[
+"Corporates",
+2016,
+17673
+],
+[
+"Sponsors",
+2016,
+74215
+],
+[
+"Regular Givers",
+2016,
+21923
+],
+[
+"Sporadics",
+2016,
+138033
+],
+[
+"Donations",
+2016,
+20427
+] 
+];
+data.addColumn('string','Area');
+data.addColumn('number','Year');
+data.addColumn('number','Income');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataTableID288828297376 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Legacies",
+2013,
+171931
+],
+[
+"Major Donors",
+2013,
+8493
+],
+[
+"Mid-Level",
+2013,
+15905
+],
+[
+"Corporates",
+2013,
+17367
+],
+[
+"Sponsors",
+2013,
+58609
+],
+[
+"Regular Givers",
+2013,
+11281
+],
+[
+"Sporadics",
+2013,
+133919
+],
+[
+"Donations",
+2013,
+14579
+],
+[
+"Legacies",
+2014,
+179819
+],
+[
+"Major Donors",
+2014,
+16925
+],
+[
+"Mid-Level",
+2014,
+16993
+],
+[
+"Corporates",
+2014,
+19577
+],
+[
+"Sponsors",
+2014,
+61873
+],
+[
+"Regular Givers",
+2014,
+13253
+],
+[
+"Sporadics",
+2014,
+139665
+],
+[
+"Donations",
+2014,
+15497
+],
+[
+"Legacies",
+2015,
+198077
+],
+[
+"Major Donors",
+2015,
+12335
+],
+[
+"Mid-Level",
+2015,
+21141
+],
+[
+"Corporates",
+2015,
+23997
+],
+[
+"Sponsors",
+2015,
+68945
+],
+[
+"Regular Givers",
+2015,
+17469
+],
+[
+"Sporadics",
+2015,
+149015
+],
+[
+"Donations",
+2015,
+16721
+],
+[
+"Legacies",
+2016,
+222217
+],
+[
+"Major Donors",
+2016,
+13763
+],
+[
+"Mid-Level",
+2016,
+20529
+],
+[
+"Corporates",
+2016,
+17673
+],
+[
+"Sponsors",
+2016,
+74215
+],
+[
+"Regular Givers",
+2016,
+21923
+],
+[
+"Sporadics",
+2016,
+138033
+],
+[
+"Donations",
+2016,
+20427
+] 
+];
+data.addColumn('string','Area');
+data.addColumn('number','Year');
+data.addColumn('number','Income');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartMotionChartID2888635a60c2() {
+var data = gvisDataMotionChartID2888635a60c2();
+var options = {};
+options["width"] = 600;
+options["height"] = 500;
+options["state"] = "\n{\"sizeOption\":\"2\",\"dimensions\":{\"iconDimensions\":[\"dim0\"]}}\n";
+
+
+    var chart = new google.visualization.MotionChart(
+    document.getElementById('MotionChartID2888635a60c2')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartTableID288828297376() {
+var data = gvisDataTableID288828297376();
+var options = {};
+options["allowHtml"] = true;
+options["width"] = 300;
+options["height"] = 600;
+
+  var dataFormat1 = new google.visualization.NumberFormat({pattern:"####"});
+  dataFormat1.format(data, 1);
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID288828297376')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "motionchart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartMotionChartID2888635a60c2);
+})();
+function displayChartMotionChartID2888635a60c2() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID288828297376);
+})();
+function displayChartTableID288828297376() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID2888635a60c2"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID288828297376"></script>
+ 
+<table cellspacing="30">
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="MotionChartID2888635a60c2" 
+  style="width: 600; height: 500;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="TableID288828297376" 
+  style="width: 300; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
+ <div><span>Data: various &#8226; Chart ID: <a href="Chart_MergedBenchmark.html">MergedBenchmark</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.3</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.4.1 (2017-06-30) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; Data Policy: See individual charts
+</span></div>
+</body>
+</html>
